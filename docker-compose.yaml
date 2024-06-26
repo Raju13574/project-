@@ -1,0 +1,20 @@
+version: '3'
+services:
+  2133_moso_interior:
+    build:
+      context: ./2133_moso_interior
+    ports:
+      - "6274:80"
+  
+  2134_gotto_job:
+    build:
+      context: ./2134_gotto_job
+    ports:
+      - "6275:80"
+  
+  2136_kool_form_pack:
+    build:
+      context: ./2136_kool_form_pack
+    ports:
+      - "6276:80"
+
